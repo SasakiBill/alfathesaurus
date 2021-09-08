@@ -39,6 +39,7 @@
         echo "<h4>Sinônimos/Conceitos Relacinados:</h4>";
         if ($id == 2){
           echo "<a href='resultSearch.php?threadid=79'>Algoritmo</a>";
+          echo "teste";
         }
 
     }
