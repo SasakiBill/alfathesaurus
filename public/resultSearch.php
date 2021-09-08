@@ -36,9 +36,9 @@
         echo "<h4>Definição da Comunidade: </h4> <h5>" . $row['definitionComun'] . "</h5>";
         echo "<h4>Conceito do tipo: </h4> <h5>" . $row['tipoConceito'] . ".</h5>";
         echo "<h4>Pertence ao Tesauro de: </h4> <h5>" . $row['pertenceTesauro'] . ".</h5>";
-        echo "<h4>Conceitos relacionados:</h4>";
+        echo "<h4>Sinônimos/Conceitos Relacinados:</h4>";
         if ($id == 2){
-          echo "<a href='resultSearch.php?threadid=3'>Teste</a>";
+          echo "<a href='resultSearch.php?threadid=79'>Algoritmo</a>";
         }
 
     }
