@@ -37,9 +37,21 @@
         echo "<h4>Conceito do tipo: </h4> <h5>" . $row['tipoConceito'] . ".</h5>";
         echo "<h4>Pertence ao Tesauro de: </h4> <h5>" . $row['pertenceTesauro'] . ".</h5>";
         echo "<h4>Sinônimos/Conceitos Relacinados:</h4>";
+
+        /*
         if ($id == 2){
           echo "<a href='resultSearch.php?threadid=79'>Algoritmo</a>";
           echo "teste";
+        }*/
+
+        switch ($id){
+          case 2:
+            echo "<a href='resultSearch.php?threadid=11'>Eixo 1 - Resolução de Problemas</a>";
+            break;
+          case 3:
+            echo "<a href='resultSearch.php?threadid=79'>Algoritmo</a>";
+            break;
+          
         }
 
     }
