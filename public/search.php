@@ -3,7 +3,7 @@
 ?>
 
 <div class="topnav">
-  <!--<img src="../view/img/Capturar-removebg-preview.png"/>-->
+  <img src="../view/img/ultimate.png"/>
 
   <a href="#">Acessibilidade</a>
   <a href="#">Sobre</a>
@@ -11,7 +11,6 @@
   <a href="#">Tutoriais</a>
   <a href="#">Tesauros da Computação</a>
   <a href="../public/index.php">Página Inicial</a>
-  <a href="#">UNICENTRO</a>
   
 </div>
 
