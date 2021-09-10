@@ -49,6 +49,8 @@
         if ($id == 2){
           echo "<a href='resultSearch.php?threadid=79'>Algoritmo</a>";
           echo "teste";
+          <img src='foto1.jpg' style='float:right;width:42px;height:42px;'>
+            
         }*/
 
         switch ($id){
@@ -56,8 +58,11 @@
             echo "<div class='hierarquicod-container'>
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
-            <h3 style='color:red'>Ciência da Computação (Concept Schema)</h3>
+            <h3>Concept Scheme (Você está aqui) -> Eixos -> Competência dos Eixos -></h3>
+            <h3>Competência Derivada -> Conteúdos</h3>
+            <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacinados:</h1>
+            
             <a href='resultSearch.php?threadid=11'>Eixo 1 - Resolução de Problemas</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=24'>Eixo 2 - Desenvolvimento de Sistemas</a><br>
@@ -83,8 +88,13 @@
             echo "<div class='hierarquicodtres-container'>
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
-            <h3 style='color:red'>Ciência da Computação (Concept Schema)</h3>
+            <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
+            <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
+            
+            <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <a href='resultSearch.php?threadid=10'>Competências do Eixo I</a><br>
+            <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=79'>Algoritmos</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=115'>Lógica Matemática</a><br>
@@ -94,15 +104,61 @@
             <a href='resultSearch.php?threadid=119'>Metodologia Científica</a><br>
             <hr width = “2” size = “100”>
             </div>
-            <h1>Vídeo Recomendado</h1>
-            <h5><iframe width='750' height='355' src='https://www.youtube.com/embed/SzJ46YA_RaA' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></h5>
           </div>";
             break;
           case 4:
-
+            echo"<div class='hierarquicodquatro-container'>
+            <h1>Atual Nível Hierárquico:</h1> 
+            <div class='niveld-container'>
+            <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
+            <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
+            
+            <hr width = “2” size = “100”>
+            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            
+            <a href='resultSearch.php?threadid=10'>Competências do Eixo I</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=153'>Teoria da Computação</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=87'>Complexidade de Algoritmos</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=116'>Fundamentos Matemáticos da Computação / Matemática Discreta</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=119'>Metodologia Científica</a><br>
+            <hr width = “2” size = “100”>
+            </div>
+          </div>";
             break;
           case 5:
-
+            echo"<div class='hierarquicodquinto-container'>
+            <h1>Atual Nível Hierárquico:</h1> 
+            <div class='niveld-container'>
+            <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
+            <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
+            
+            <hr width = “2” size = “100”>
+            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            
+            <a href='resultSearch.php?threadid=10'>Competências do Eixo I</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=100'>Estruturas de Dados</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=154'>Teoria dos Grafos</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=115'>Lógica Matemática</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=155'>Técnicas de Programação</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=86'>Compiladores</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=123'>Padrões de Projeto</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=108'>Inglês Instrumental</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=79'>Algoritmos</a><br>
+            <hr width = “2” size = “100”>
+            </div>
+          </div>";
             break;
             
           case 6:
