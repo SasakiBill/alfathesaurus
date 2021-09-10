@@ -3,35 +3,44 @@
 ?>
 
 <div class="topnav">
-        <img src="../view/img/Capturar-removebg-preview.png">
-        <a href="#">Sobre</a>
-        <a href="#">Contribua!</a>
-        <a href="#">Tutoriais</a>
-        <a href="#">Tesauros da Computação</a>
-        <a href="../public/index.php">Página Inicial</a>  
-    <div class="search-container">
+  <!--<img src="../view/img/Capturar-removebg-preview.png"/>-->
+
+  <a href="#">Acessibilidade</a>
+  <a href="#">Sobre</a>
+  <a href="#">Contribua!</a>
+  <a href="#">Tutoriais</a>
+  <a href="#">Tesauros da Computação</a>
+  <a href="../public/index.php">Página Inicial</a>
+  <a href="#">UNICENTRO</a>
+  
+</div>
+
+<div class="titulo-container">
+  <h2>Trodoon - DICIONÁRIO GRATUÍTO DE SINÔNIMOS DA COMPUTAÇÃO</h2>
+  <div class="search-container">
     <form action="search.php" method="POST">
-      <input type="text" placeholder="Busque aqui pelo tesauro..." name="search">
+      <input type="text" placeholder="Busque aqui pelo tesauro..." name="search" />
       <button type="submit" name="submit-search"><i class="fa fa-search">Go</i></button>
     </form>
   </div>
 </div>
-<h2>Trodoon - DICIONÁRIO GRATUÍTO DE SINÔNIMOS DA COMPUTAÇÃO</h2>
 
-<div class ="cconceito-container">
-    <div class="conceito-container">
+
+
+<div class ="resultado-container">
+    <div class="resultadores-container">
     <?php
 
         if (isset($_POST['submit-search'])){
             $search = mysqli_real_escape_string($conn, $_POST['search']);
             $sql = "SELECT * FROM conceito WHERE prefLabel LIKE '%$search%'
-            OR altLabelA LIKE '%$search%' OR definitionA LIKE '%$search%' OR tipoConceito LIKE '%$search%'";
+            OR altLabelA LIKE '%$search%' OR definitionA LIKE '%$search%' OR tipoConceito LIKE '%$search%' OR definitionComun like '%$search$'";
 
             $result = mysqli_query($conn, $sql);
             $queryResult = mysqli_num_rows($result);
 
-            echo "<h4>Foram encontrados " .$queryResult. " resultados da pesquisa: " .$search." </h4> ";
-            echo "<h4>Para aprender melhor sobre algum conceito de sua pesquisa, clique em seu nome.</h4>";
+            echo "<h3>Foram encontrados " .$queryResult. " resultados da pesquisa: " .$search.".</h3> ";
+            echo "<h3>Para aprender melhor sobre algum conceito de sua pesquisa, clique em seu nome.</h3>";
 
             if ($queryResult > 0){
                 while($row = mysqli_fetch_assoc($result) ) {
@@ -41,9 +50,9 @@
                     $url = "resultSearch.php?threadid=" . $threadId;
                     echo "
                     <div class='conceito-box'>
-                        <h3>--------------------------------------------------------------------------</h3>
-                        <h4>Nome do Conceito Preferêncial: </h4><a href=". $url. ">". $title."</a> 
-                        
+                        <hr width = “2” size = “100”>
+                        <h3>Nome do Conceito: </h3><a href=". $url. ">". $title."</a> 
+                        <br>
                         
                     </div>";
                 }
