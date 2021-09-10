@@ -46,12 +46,36 @@
 
         switch ($id){
           case 2:
-            echo "<a href='resultSearch.php?threadid=11'>Eixo 1 - Resolução de Problemas</a>";
+            echo "<a href='resultSearch.php?threadid=11'>Eixo 1 - Resolução de Problemas</a><br>";
+            echo "<a href='resultSearch.php?threadid=24'>Eixo 2 - Desenvolvimento de Sistemas</a><br>";
+            echo "<a href='resultSearch.php?threadid=37'>Eixo 3 - Desenvolvimento de Projetos</a><br>";
+            echo "<a href='resultSearch.php?threadid=47'>Eixo 4 - Implementação de Sistemas</a><br>";
+            echo "<a href='resultSearch.php?threadid=60'>Eixo 5 - Gestão de Infraestrutura</a><br>";
+            echo "<a href='resultSearch.php?threadid=69'>Eixo 6 - Aprendizado Contínuo e Autônomo</a><br>";
+            echo "<a href='resultSearch.php?threadid=78'>Eixo 7 - Ciência, Tecnologia e Inovação</a><br>";
+            echo "<a href='resultSearch.php?threadid=73'>C.7.5 - Compreender os fatos essenciais, os conceitos, os princípios e as teorias relacionadas à Ciência da Computação para o desenvolvimento de software e hardware e suas aplicações.</a><br>";
+
+            
             break;
           case 3:
             echo "<a href='resultSearch.php?threadid=79'>Algoritmo</a>";
             break;
-          
+          case 4:
+
+            break;
+          case 5:
+
+            break;
+            
+          case 6:
+
+            break;
+          case 7:
+
+            break;
+          case 8:
+
+            break;
         }
 
     }
