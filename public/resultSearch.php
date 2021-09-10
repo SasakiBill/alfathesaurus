@@ -162,9 +162,62 @@
             break;
             
           case 6:
-
+            echo"<div class='hierarquicodseis-container'>
+            <h1>Atual Nível Hierárquico:</h1> 
+            <div class='niveld-container'>
+            <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
+            <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
+            
+            <hr width = “2” size = “100”>
+            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            
+            <a href='resultSearch.php?threadid=10'>Competências do Eixo I</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=103'>Geometria Analítica e Vetores</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=87'>Complexidade de Algoritmos</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=116'>Fundamentos Matemáticos da Computação / Matemática Discreta</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=126'>Probabilidade e Estatítisca</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=94'>Cálculo</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=95'>Cálculo Numérico</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=122'>Métodos Quantitativos em Computação</a><br>
+            <hr width = “2” size = “100”>
+            </div>
+          </div>";
             break;
           case 7:
+            echo"<div class='hierarquicodsete-container'>
+            <h1>Atual Nível Hierárquico:</h1> 
+            <div class='niveld-container'>
+            <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
+            <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
+            
+            <hr width = “2” size = “100”>
+            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            
+            <a href='resultSearch.php?threadid=10'>Competências do Eixo I</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=103'>Geometria Analítica e Vetores</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=87'>Complexidade de Algoritmos</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=116'>Fundamentos Matemáticos da Computação / Matemática Discreta</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=126'>Probabilidade e Estatítisca</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=94'>Cálculo</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=95'>Cálculo Numérico</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=122'>Métodos Quantitativos em Computação</a><br>
+            <hr width = “2” size = “100”>
+            </div>
+          </div>";
 
             break;
           case 8:
