@@ -57,7 +57,7 @@
             echo "<div class='hierarquicod-container'>
                     <h1>Atual Nível Hierárquico:<h1> 
                     <div class='niveld-container'>
-                    <h3>Concept Schema</h3>
+                    <h3 style='color:red'>Ciência da Computação (Concept Schema)</h3>
                     <h1>Sinônimos/Conceitos Relacinados:</h1>
                     <a href='resultSearch.php?threadid=11'>Eixo 1 - Resolução de Problemas</a><br>
                     <hr width = “2” size = “100”>
@@ -76,6 +76,8 @@
                     <a href='resultSearch.php?threadid=73'>C.7.5 - Compreender os fatos essenciais, os conceitos, os princípios e as teorias relacionadas à Ciência da Computação para o desenvolvimento de software e hardware e suas aplicações.</a><br>
                     <hr width = “2” size = “100”>
                     </div>
+                    <h1>Vídeo Recomendado</h1>
+                    <h5><iframe width='750' height='355' src='https://www.youtube.com/embed/W3DBlhU1Pjo' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></h5>
                   </div>";
             
             break;
