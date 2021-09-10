@@ -54,57 +54,49 @@
         switch ($id){
           case 2:
             echo "<div class='hierarquicod-container'>
-                    <h1>Atual Nível Hierárquico:</h1> 
-                    <div class='niveld-container'>
-                    <h3 style='color:red'>Ciência da Computação (Concept Schema)</h3>
-                    <h1>Sinônimos/Conceitos Relacinados:</h1>
-                    <a href='resultSearch.php?threadid=11'>Eixo 1 - Resolução de Problemas</a><br>
-                    <hr width = “2” size = “100”>
-                    <a href='resultSearch.php?threadid=24'>Eixo 2 - Desenvolvimento de Sistemas</a><br>
-                    <hr width = “2” size = “100”>
-                    <a href='resultSearch.php?threadid=37'>Eixo 3 - Desenvolvimento de Projetos</a><br>
-                    <hr width = “2” size = “100”>
-                    <a href='resultSearch.php?threadid=47'>Eixo 4 - Implementação de Sistemas</a><br>
-                    <hr width = “2” size = “100”>
-                    <a href='resultSearch.php?threadid=60'>Eixo 5 - Gestão de Infraestrutura</a><br>
-                    <hr width = “2” size = “100”>
-                    <a href='resultSearch.php?threadid=69'>Eixo 6 - Aprendizado Contínuo e Autônomo</a><br>
-                    <hr width = “2” size = “100”>
-                    <a href='resultSearch.php?threadid=78'>Eixo 7 - Ciência, Tecnologia e Inovação</a><br>
-                    <hr width = “2” size = “100”>
-                    <a href='resultSearch.php?threadid=73'>C.7.5 - Compreender os fatos essenciais, os conceitos, os princípios e as teorias relacionadas à Ciência da Computação para o desenvolvimento de software e hardware e suas aplicações.</a><br>
-                    <hr width = “2” size = “100”>
-                    </div>
-                    <h1>Vídeo Recomendado</h1>
-                    <h5><iframe width='750' height='355' src='https://www.youtube.com/embed/SzJ46YA_RaA' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></h5>
-                  </div>";
+            <h1>Atual Nível Hierárquico:</h1> 
+            <div class='niveld-container'>
+            <h3 style='color:red'>Ciência da Computação (Concept Schema)</h3>
+            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <a href='resultSearch.php?threadid=11'>Eixo 1 - Resolução de Problemas</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=24'>Eixo 2 - Desenvolvimento de Sistemas</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=37'>Eixo 3 - Desenvolvimento de Projetos</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=47'>Eixo 4 - Implementação de Sistemas</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=60'>Eixo 5 - Gestão de Infraestrutura</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=69'>Eixo 6 - Aprendizado Contínuo e Autônomo</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=78'>Eixo 7 - Ciência, Tecnologia e Inovação</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=73'>C.7.5 - Compreender os fatos essenciais, os conceitos, os princípios e as teorias relacionadas à Ciência da Computação para o desenvolvimento de software e hardware e suas aplicações.</a><br>
+            <hr width = “2” size = “100”>
+            </div>
+            <h1>Vídeo Recomendado</h1>
+            <h5><iframe width='750' height='355' src='https://www.youtube.com/embed/SzJ46YA_RaA' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></h5>
+          </div>";
             break;
           case 3:
-            echo "<div class='hierarquicod-container'>
-                  <h1>Atual Nível Hierárquico:</h1> 
-                  <div class='niveld-container'>
-                  <h3 style='color:red'>Ciência da Computação (Concept Schema)</h3>
-                  <h1>Sinônimos/Conceitos Relacinados:</h1>
-                  <a href='resultSearch.php?threadid=11'>Eixo 1 - Resolução de Problemas</a><br>
-                  <hr width = “2” size = “100”>
-                  <a href='resultSearch.php?threadid=24'>Eixo 2 - Desenvolvimento de Sistemas</a><br>
-                  <hr width = “2” size = “100”>
-                  <a href='resultSearch.php?threadid=37'>Eixo 3 - Desenvolvimento de Projetos</a><br>
-                  <hr width = “2” size = “100”>
-                  <a href='resultSearch.php?threadid=47'>Eixo 4 - Implementação de Sistemas</a><br>
-                  <hr width = “2” size = “100”>
-                  <a href='resultSearch.php?threadid=60'>Eixo 5 - Gestão de Infraestrutura</a><br>
-                  <hr width = “2” size = “100”>
-                  <a href='resultSearch.php?threadid=69'>Eixo 6 - Aprendizado Contínuo e Autônomo</a><br>
-                  <hr width = “2” size = “100”>
-                  <a href='resultSearch.php?threadid=78'>Eixo 7 - Ciência, Tecnologia e Inovação</a><br>
-                  <hr width = “2” size = “100”>
-                  <a href='resultSearch.php?threadid=73'>C.7.5 - Compreender os fatos essenciais, os conceitos, os princípios e as teorias relacionadas à Ciência da Computação para o desenvolvimento de software e hardware e suas aplicações.</a><br>
-                  <hr width = “2” size = “100”>
-                  </div>
-                  <h1>Vídeo Recomendado</h1>
-                  <h5><iframe width='750' height='355' src='https://www.youtube.com/embed/SzJ46YA_RaA' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></h5>
-                </div>";
+            echo "<div class='hierarquicodtres-container'>
+            <h1>Atual Nível Hierárquico:</h1> 
+            <div class='niveld-container'>
+            <h3 style='color:red'>Ciência da Computação (Concept Schema)</h3>
+            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <a href='resultSearch.php?threadid=79'>Algoritmos</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=115'>Lógica Matemática</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=116'>Fundamentos Matemáticos da Computação / Matemática Discreta</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=119'>Metodologia Científica</a><br>
+            <hr width = “2” size = “100”>
+            </div>
+            <h1>Vídeo Recomendado</h1>
+            <h5><iframe width='750' height='355' src='https://www.youtube.com/embed/SzJ46YA_RaA' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></h5>
+          </div>";
             break;
           case 4:
 

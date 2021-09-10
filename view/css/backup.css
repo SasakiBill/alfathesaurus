@@ -171,7 +171,12 @@ p {
     border-color: #9E0000;
     font-size: 25px;
     width: 750px;
-    height: 2150px;
+    height: 2070px;
+}
+
+.conceito-container{
+    width: 750px;
+    height: 1900px;
 }
 
 h5{
@@ -197,6 +202,14 @@ h6{
     margin-top: -2132px;
 }
 
+.hierarquicodtres-container {
+    background-color: #9E0000;
+    color: #fff;
+    position: absolute;
+    left: 1000px;
+    margin-top: -1553px;
+}
+
 .niveld-container {
     color: black;
     background-color: #fff;
@@ -207,3 +220,4 @@ h6{
     font-size: 25px;
     
 }
+
