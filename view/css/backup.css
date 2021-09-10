@@ -123,4 +123,38 @@
     border-color: #9E0000;
     font-size: 25px;
   }
-  
+
+  .article-container{
+    margin-top: 20px;
+    width: 900px;
+    background-color: #9E0000;
+    padding: 30px;
+    border-radius: 16px;
+}
+
+.creators-container{
+    background-color: #fff;
+    background-size: cover;
+    border-radius: 8px;
+}
+
+.cconceito-container{
+    margin-top: 20px;
+    width: 900px;
+    background-color: #9E0000;
+    padding: 30px;
+    border-radius: 16px;
+    font-size: medium;
+}
+
+.conceito-container{
+    background-color: #fff;
+    border-radius: 16px;
+    font-size: 32px;
+}
+
+
+.conceito-box{
+    padding-bottom: 30px;
+    width: 100%;
+}
