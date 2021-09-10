@@ -171,7 +171,7 @@ p {
     border-color: #9E0000;
     font-size: 25px;
     width: 750px;
-    height: 2110px;
+    height: 2150px;
 }
 
 h5{
@@ -191,10 +191,10 @@ h6{
 
 .hierarquicod-container {
     background-color: #9E0000;
-    position: relative;
     color: #fff;
-    top: -2133px;
+    position: relative;
     left: 1000px;
+    margin-top: -2132px;
 }
 
 .niveld-container {
@@ -205,4 +205,5 @@ h6{
     border-width: 6px;
     border-color: #9E0000;
     font-size: 25px;
+    
 }
