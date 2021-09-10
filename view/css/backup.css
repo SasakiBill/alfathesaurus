@@ -137,9 +137,26 @@ p {
     background-color: #fff;
     border-radius: 8px;
     border-style: double dashed;
+    border-color: #fff;
     border-width: 6px;
     border-color: #9E0000;
     font-size: 25px;
+}
+
+footer {
+    font-family: Apple Chancery, cursive;
+    position: relative;
+    bottom: -5px;
+    background-color: #9E0000;
+    color: #FFF;
+    font-size: 20px;
+    width: 99%;
+    height: 50px;    
+    text-align: center;
+    line-height: 50px;
+    border-radius: 4px;
+    border-style: double dashed;
+    border-color: #9E0000;
 }
 
 .resultado-container {
