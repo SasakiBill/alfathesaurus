@@ -322,13 +322,13 @@ h6{
 }
 
 .hierarquicod-container h1{
-    font-size: 28px;
+    font-size: 26px;
     color: black;
     
 }
 
 .hierarquicod-container h3{
-    font-size: 26px;
+    font-size: 24px;
     -webkit-text-fill-color: white; /* Will override color (regardless of order) */
     -webkit-text-stroke-width: 1px;
     
@@ -374,6 +374,23 @@ h6{
     width: 750px;
 }
 
+.hierarquicodsete-container {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 1000px;
+    margin-top: -1470px;
+    width: 750px;
+}
+
+.hierarquicodoito-container {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 1000px;
+    margin-top: -1430px;
+    width: 750px;
+}
 
 .niveld-container {
     background-color: transparent;

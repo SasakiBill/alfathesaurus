@@ -193,7 +193,7 @@ include 'header.php';
           </div>";
             break;
           case 7:
-            echo "<div class='hierarquicodseis-container'>
+            echo "<div class='hierarquicodsete-container'>
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
@@ -223,7 +223,43 @@ include 'header.php';
 
             break;
           case 8:
-
+            echo "<div class='hierarquicodoito-container'>
+            <h1>Atual Nível Hierárquico:</h1> 
+            <div class='niveld-container'>
+            <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
+            <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
+            
+            <hr width = “2” size = “100”>
+            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            
+            <a href='resultSearch.php?threadid=10'>Competências do Eixo I</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=139'>Propriedade Intelectual</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=102'>Fundamentos de Economia</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=121'>Métodos Formais</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=113'>Legislação de Informática</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=110'>Inteligência Artificial e Computacional</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=93'>Criptografia</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=137'>Projeto de Algoritmos</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=152'>Sustentabilidade</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=124'>Pesquisa Operacional e Otimização</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=107'>História da Computação</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=125'>Privacidade e Direitos Civis</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=157'>Ética em Computação</a><br>
+            <hr width = “2” size = “100”>
+            </div>
+          </div>";
             break;
         }
       }
