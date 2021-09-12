@@ -1,10 +1,16 @@
+body{
+    background-color: white;
+    
+    background-position: center;
+}
+
 .topnav {
     background-color: #9E0000;
     overflow: hidden;
     color: #fff;
     text-align: right;
     border-radius: 8px;
-    border-style: double dashed;
+    border-style: groove;
     border-width: 6px;
     border-color: #9E0000;
     height: 60px;
@@ -36,10 +42,19 @@ img{
 }
 
 .article-container {
-    background-color: #9E0000;
+    background-color: #BF1313;
+    border-radius: 8px;
     color: #fff;
-    height: 230;
+    height: fit-content;
     width: 870px;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+}
+
+.article-container h1{
+    font-size: 28px;
+ 
 }
 
 h1 {
@@ -50,6 +65,7 @@ h1 {
 .titulo-container h2{
     color: rgb(255, 255, 255);
     margin-top: 0px;
+    
 }
 
 .titulo-container {
@@ -59,7 +75,7 @@ h1 {
     height: 40px;
     position: relative;
     border-radius: 2px;
-    border-style: double dashed;
+    border-style: groove;
     border-width: 4px;
     border-color: #9E0000;
 }
@@ -71,6 +87,8 @@ h1 {
 }
 
 .titulo-container input[type="text"] {
+    color: black;
+    background: white;
     padding: 6px;
     margin-top: -50px;
     font-size: 17px;
@@ -78,18 +96,30 @@ h1 {
     float: right;
 }
 
+::placeholder{
+    color:rgb(105, 92, 92);
+}
+
 .titulo-container .search-container button {
+    border-radius: 4px;
     float: right;
-    background-color: rgb(255, 255, 255);
     margin-top: -50px;
-    margin-right: -38px;
-    height: 30px;
+    margin-right: -48px;
+    height: 32px;
+    width: 45px;
     border: none;
+    background-color: #2a2ddd;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+    
+    transition: all 0.5s;
     cursor: pointer;
 }
 
 .titulo-container .search-container button:hover {
-    background: rgb(255, 255, 255);
+    background: greenyellow;
+    color: black;
     transition-property: width;
     transition-duration: 2s;
     transition-timing-function: linear;
@@ -113,34 +143,58 @@ p {
 }
 
 .creators-container {
-    color: black;
-    background-color: #fff;
+    background-color: transparent;
     border-radius: 8px;
-    border-style: double dashed;
+    border-style: groove;
     border-width: 6px;
     border-color: #9E0000;
-    font-size: 25px;
+    width: auto;
+    height: auto;
+    
+}
+
+.creators-container h3{
+    color: black;
+    font-size: 28px;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
 }
 
 .hierarquico-container {
-    background-color: #9E0000;
+    border-radius: 8px;
+    border-color: black;
+    background-color: #BF1313;
     color: #fff;
-    height: 208;
-    width: 600px;
+    width: 650px;
     position: relative;
-    left: 1200px;
-    top: -537px;
+    left: 1150px;
+    top: -800px;
+}
+
+.hierarquico-container h1{
+    color: black;
+    font-size: 28px;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
 }
 
 .nivel-container {
-    color: black;
-    background-color: #fff;
+    background-color: transparent;
     border-radius: 8px;
-    border-style: double dashed;
+    border-style: groove;
     border-color: #fff;
     border-width: 6px;
     border-color: #9E0000;
-    font-size: 25px;
+}
+
+.nivel-container h3{
+    color: black;
+    font-size: 28px;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
 }
 
 footer {
@@ -155,14 +209,15 @@ footer {
     text-align: center;
     line-height: 50px;
     border-radius: 4px;
-    border-style: double dashed;
-    border-color: #9E0000;
+    border-style: groove;
+    border-color: #000000;
 }
 
 .resultado-container {
     top: 3000px;
-    color: black;
-    background-color: #fff;
+    color: rgb(255, 255, 255);
+    background-color: beige;
+    background-color: transparent;
     border-radius: 8px;
     border-style: double dashed;
     border-width: 6px;
@@ -170,30 +225,69 @@ footer {
     font-size: 25px;
 }
 
+.resultadores-container h3{
+    font-size: 26px;
+    color: rgb(0, 0, 0);
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+}
+
+.resultadores-container a{
+    font-family: Apple Chancery, cursive;
+    
+    color: rgb(0, 0, 0);
+    
+    padding: 14px 12px;
+    
+    font-size: 25px;
+    margin-right: 60px;
+    text-decoration: none;
+    
+}
+
 .resultadores-container a:hover {
-    background-color: #ffffff;
-    color: #BF1313;
+    background-color: transparent;
+    color: #9E0000;
     border-radius: 8px;
     -webkit-transition: 0.5s;
-    color: rgb(31, 30, 30);
+    
+   
 }
 
 .cconceito-container{
     position: inherit;
     color: black;
-    background-color: #fff;
+    background-color: transparent;
     border-radius: 8px;
-    border-style: double dashed;
-    border-width: 6px;
-    border-color: #9E0000;
+    border-style: groove;
+    border-width: 2px;
+    
     font-size: 25px;
     width: 750px;
     height: 2070px;
 }
 
+.cconceito-container h3{
+    font-size: 28px;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+
+}
+
 .conceito-container{
     width: 750px;
     height: 1900px;
+}
+
+.conceito-container h5{
+    color: black;
+    font-size: 28px;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+    background-color: transparent;
 }
 
 h5{
@@ -212,12 +306,26 @@ h6{
 }
 
 .hierarquicod-container {
-    background-color: #9E0000;
+    background-color: transparent;
     color: #fff;
     position: relative;
     left: 1000px;
     margin-top: -2132px;
     width: 750px;
+}
+
+.hierarquicod-container h1{
+    font-size: 28px;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+}
+
+.hierarquicod-container h3{
+    font-size: 26px;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
 }
 
 .hierarquicodtres-container {
@@ -258,13 +366,26 @@ h6{
 }
 
 .niveld-container {
-    color: black;
-    background-color: #fff;
+    background-color: transparent;
     border-radius: 8px;
-    border-style: double dashed;
-    border-width: 6px;
+    border-style: groove;
+    border-width: 2px;
     border-color: #9E0000;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.niveld-container a{
+    color: rgb(0, 0, 0);
     font-size: 25px;
-    
+    text-decoration: none;
+}
+
+.niveld-container a:hover{
+    background-color: transparent;
+    border-radius: 8px;
+    -webkit-transition: 0.5s;
+    color: rgb(255, 255, 255);
 }
 

@@ -1,41 +1,43 @@
 <?php
-    include 'header.php';
-    
+include 'header.php';
+
 ?>
-<div class="topnav">
-  <img src="../view/img/ultimate.png"/>
 
-  <a href="#">Acessibilidade</a>
-  <a href="#">Sobre</a>
-  <a href="#">Contribua!</a>
-  <a href="#">Tutoriais</a>
-  <a href="#">Tesauros da Computação</a>
-  <a href="../public/index.php">Página Inicial</a>
-  
-</div>
+<body>
+  <div class="topnav">
+    <img src="../view/img/ultimate.png" />
 
-<div class="titulo-container">
-  <h2>Trodoon - DICIONÁRIO GRATUÍTO DE SINÔNIMOS DA COMPUTAÇÃO</h2>
-  <div class="search-container">
-    <form action="search.php" method="POST">
-      <input type="text" placeholder="Busque aqui pelo tesauro..." name="search" />
-      <button type="submit" name="submit-search"><i class="fa fa-search">Go</i></button>
-    </form>
+    <a href="#">Acessibilidade</a>
+    <a href="#">Sobre</a>
+    <a href="#">Contribua!</a>
+    <a href="#">Tutoriais</a>
+    <a href="#">Tesauros da Computação</a>
+    <a href="../public/index.php">Página Inicial</a>
+
   </div>
-</div>
+
+  <div class="titulo-container">
+    <h2>Trodoon - DICIONÁRIO GRATUÍTO DE SINÔNIMOS DA COMPUTAÇÃO</h2>
+    <div class="search-container">
+      <form action="search.php" method="POST">
+        <input type="text" placeholder="Busque aqui pelo tesauro..." name="search" />
+        <button type="submit" name="submit-search"><i class="fa fa-search">Go</i></button>
+      </form>
+    </div>
+  </div>
 
 
 
-<div class ="cconceito-container">
-    <h3 style="font-size: 26px">Página detalhada do Conceito</h3>
+  <div class="cconceito-container">
+    <h3>Página detalhada do Conceito</h3>
     <div class="conceito-container">
-    <?php
-    $id = $_GET['threadid'];
-    $sql = "SELECT * FROM `conceito` WHERE idConceito=$id"; 
-    $result = mysqli_query($conn, $sql);
- 
-    while($row = mysqli_fetch_assoc($result)){
-        echo "ID: " . $row['idConceito']. "<br>";
+      <?php
+      $id = $_GET['threadid'];
+      $sql = "SELECT * FROM `conceito` WHERE idConceito=$id";
+      $result = mysqli_query($conn, $sql);
+
+      while ($row = mysqli_fetch_assoc($result)) {
+        echo "ID: " . $row['idConceito'] . "<br>";
         echo "<h5>Título do Conceito Preferêncial: </h5> <h6>" . $row['prefLabel'] . "</h6>";
         echo "<h5>Título do conceito em Inglês: </h5> <h6>" . $row['altLabelA'] . "</h6>";
         echo "<h5>Definição Acadêmica: </h5> <h6>" . $row['definitionA'] . "</h6>";
@@ -43,7 +45,7 @@
         echo "<h5>Definição da Comunidade: </h5> <h6>" . $row['definitionComun'] . "</h6>";
         echo "<h5>Conceito do tipo: </h5> <h6>" . $row['tipoConceito'] . ".</h6>";
         echo "<h5>Pertence ao Tesauro de: </h5> <h6>" . $row['pertenceTesauro'] . ".</h6>";
-        
+
 
         /*
         if ($id == 2){
@@ -53,7 +55,7 @@
             
         }*/
 
-        switch ($id){
+        switch ($id) {
           case 2:
             echo "<div class='hierarquicod-container'>
             <h1>Atual Nível Hierárquico:</h1> 
@@ -107,7 +109,7 @@
           </div>";
             break;
           case 4:
-            echo"<div class='hierarquicodquatro-container'>
+            echo "<div class='hierarquicodquatro-container'>
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
@@ -130,7 +132,7 @@
           </div>";
             break;
           case 5:
-            echo"<div class='hierarquicodquinto-container'>
+            echo "<div class='hierarquicodquinto-container'>
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
@@ -160,9 +162,9 @@
             </div>
           </div>";
             break;
-            
+
           case 6:
-            echo"<div class='hierarquicodseis-container'>
+            echo "<div class='hierarquicodseis-container'>
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
@@ -191,7 +193,7 @@
           </div>";
             break;
           case 7:
-            echo"<div class='hierarquicodsete-container'>
+            echo "<div class='hierarquicodsete-container'>
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
@@ -224,17 +226,17 @@
 
             break;
         }
+      }
 
-    }
 
-    
-    
-   
 
-    ?>
+
+
+      ?>
     </div>
-</div>
+  </div>
 
-<footer>
-  Sistema web desenvolvido como objetivo de obtenção de nota na disciplina de Trabalho de Conclusão de Curso no curso de Ciência da Computação - Universidade Estadual do Centro-Oeste.
-</footer>
+  <footer>
+    Sistema web desenvolvido como objetivo de obtenção de nota na disciplina de Trabalho de Conclusão de Curso no curso de Ciência da Computação - Universidade Estadual do Centro-Oeste.
+  </footer>
+</body>
