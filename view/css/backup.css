@@ -219,18 +219,18 @@ footer {
     background-color: beige;
     background-color: transparent;
     border-radius: 8px;
-    border-style: double dashed;
+    border-style: groove;
     border-width: 6px;
-    border-color: #9E0000;
+    border-color: #000000;
     font-size: 25px;
 }
+
+
 
 .resultadores-container h3{
     font-size: 26px;
     color: rgb(0, 0, 0);
-    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
-    -webkit-text-stroke-width: 1.5px;
-    -webkit-text-stroke-color: black;
+    
 }
 
 .resultadores-container a{
@@ -248,7 +248,7 @@ footer {
 
 .resultadores-container a:hover {
     background-color: transparent;
-    color: #9E0000;
+    color: #BF1313;
     border-radius: 8px;
     -webkit-transition: 0.5s;
     
@@ -265,27 +265,26 @@ footer {
     
     font-size: 25px;
     width: 750px;
-    height: 2070px;
+    height: fit-content;
 }
 
 .cconceito-container h3{
     font-size: 28px;
-    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
-    -webkit-text-stroke-width: 1.5px;
-    -webkit-text-stroke-color: black;
+    color: black;
 
 }
 
 .conceito-container{
-    width: 750px;
-    height: 1900px;
+    width: fit-content;
+    height: fit-content;
 }
 
 .conceito-container h5{
     color: black;
-    font-size: 28px;
+    font-size: 24px;
     -webkit-text-fill-color: white; /* Will override color (regardless of order) */
-    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-width: 1px;
+    text-decoration-line: underline;
     -webkit-text-stroke-color: black;
     background-color: transparent;
 }
@@ -302,45 +301,48 @@ h6{
     background-color: #ffffff;
     color: rgb(0, 0, 0);
     
-    font-size: 26px;
+    font-size: 22px;
 }
 
 .hierarquicod-container {
     background-color: transparent;
     color: #fff;
-    position: relative;
+    position: absolute;
     left: 1000px;
-    margin-top: -2132px;
+    margin-top: -1792px;
     width: 750px;
+    height: fit-content;
 }
 
 .hierarquicod-container h1{
     font-size: 28px;
-    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
-    -webkit-text-stroke-width: 1.5px;
-    -webkit-text-stroke-color: black;
+    color: black;
+    
 }
 
 .hierarquicod-container h3{
     font-size: 26px;
     -webkit-text-fill-color: white; /* Will override color (regardless of order) */
-    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-width: 1px;
+    
     -webkit-text-stroke-color: black;
+  
 }
 
 .hierarquicodtres-container {
-    background-color: #9E0000;
-    color: #fff;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
     position: absolute;
     left: 1000px;
-    margin-top: -1553px;
+    margin-top: -1380px;
     width: 750px;
+    height: fit-content;
 }
 
 
 .hierarquicodquatro-container {
-    background-color: #9E0000;
-    color: #fff;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
     position: absolute;
     left: 1000px;
     margin-top: -1518px;
@@ -348,8 +350,8 @@ h6{
 }
 
 .hierarquicodquinto-container {
-    background-color: #9E0000;
-    color: #fff;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
     position: absolute;
     left: 1000px;
     margin-top: -1554px;
@@ -357,8 +359,8 @@ h6{
 }
 
 .hierarquicodseis-container {
-    background-color: #9E0000;
-    color: #fff;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
     position: absolute;
     left: 1000px;
     margin-top: -1590px;
@@ -370,10 +372,9 @@ h6{
     border-radius: 8px;
     border-style: groove;
     border-width: 2px;
-    border-color: #9E0000;
-    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
+    border-color: #000000;
+    height: fit-content;
+    
 }
 
 .niveld-container a{
@@ -386,6 +387,6 @@ h6{
     background-color: transparent;
     border-radius: 8px;
     -webkit-transition: 0.5s;
-    color: rgb(255, 255, 255);
+    color: #BF1313;
 }
 
