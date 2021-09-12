@@ -132,7 +132,7 @@ include 'header.php';
           </div>";
             break;
           case 5:
-            echo "<div class='hierarquicodquinto-container'>
+            echo "<div class='hierarquicodquatro-container'>
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
@@ -193,7 +193,7 @@ include 'header.php';
           </div>";
             break;
           case 7:
-            echo "<div class='hierarquicodsete-container'>
+            echo "<div class='hierarquicodseis-container'>
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>

@@ -42,7 +42,7 @@ img{
 }
 
 .article-container {
-    background-color: #BF1313;
+    background-color: transparent;
     border-radius: 8px;
     color: #fff;
     height: fit-content;
@@ -54,6 +54,8 @@ img{
 
 .article-container h1{
     font-size: 28px;
+    background: #BF1313;
+    border-radius: 8px;
  
 }
 
@@ -143,7 +145,8 @@ p {
 }
 
 .creators-container {
-    background-color: transparent;
+    position: relative;
+    background-color: #BF1313;
     border-radius: 8px;
     border-style: groove;
     border-width: 6px;
@@ -162,6 +165,8 @@ p {
 }
 
 .hierarquico-container {
+    
+
     border-radius: 8px;
     border-color: black;
     background-color: #BF1313;
@@ -175,13 +180,15 @@ p {
 .hierarquico-container h1{
     color: black;
     font-size: 28px;
+    background-color: transparent;
     -webkit-text-fill-color: white; /* Will override color (regardless of order) */
     -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: black;
 }
 
 .nivel-container {
-    background-color: transparent;
+    position: absolute;
+    background-color: #BF1313;
     border-radius: 8px;
     border-style: groove;
     border-color: #fff;
@@ -200,7 +207,7 @@ p {
 footer {
     font-family: Apple Chancery, cursive;
     position: relative;
-    bottom: -5px;
+    
     background-color: #9E0000;
     color: #FFF;
     font-size: 20px;
@@ -345,7 +352,7 @@ h6{
     color: rgb(0, 0, 0);
     position: absolute;
     left: 1000px;
-    margin-top: -1518px;
+    margin-top: -1380px;
     width: 750px;
 }
 
@@ -354,7 +361,7 @@ h6{
     color: rgb(0, 0, 0);
     position: absolute;
     left: 1000px;
-    margin-top: -1554px;
+    margin-top: -1380px;
     width: 750px;
 }
 
@@ -363,9 +370,10 @@ h6{
     color: rgb(0, 0, 0);
     position: absolute;
     left: 1000px;
-    margin-top: -1590px;
+    margin-top: -1440px;
     width: 750px;
 }
+
 
 .niveld-container {
     background-color: transparent;
