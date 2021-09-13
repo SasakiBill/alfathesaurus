@@ -341,9 +341,6 @@ footer {
     position: inherit;
     color: black;
     background-color: transparent;
-    border-radius: 8px;
-    border-style: groove;
-    border-width: 2px;
     
     font-size: 25px;
     width: 750px;
@@ -359,6 +356,10 @@ footer {
 .conceito-container{
     width: fit-content;
     height: fit-content;
+    border-radius: 8px;
+    border-style: groove;
+    border-width: 2px;
+    border-color: black;
 }
 
 .conceito-container h5{
