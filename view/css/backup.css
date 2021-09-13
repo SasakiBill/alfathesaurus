@@ -266,6 +266,10 @@ p {
     bottom: -380px;
 }
 
+.fundo-contribua-container{
+    bottom: -30px;
+}
+
 .creators-container {
     position: relative;
     background-color: #BF1313;
@@ -342,6 +346,9 @@ footer {
     border-color: #000000;
 }
 
+.formulario-container{
+    margin-left: 440px;
+}
 .resultado-container {
     top: 3000px;
     color: rgb(255, 255, 255);
