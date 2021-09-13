@@ -1,7 +1,30 @@
 body{
     background-color: white;
-    
+    scroll-behavior: smooth;
+    scrollbar-base-color: tomato;
     background-position: center;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #9E0000;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #b30000;
 }
 
 .topnav {
@@ -144,6 +167,58 @@ p {
     text-indent: 3ch;
 }
 
+.tesauro-container{
+    position: relative;
+    background-color: #BF1313;
+    border-radius: 8px;
+    border-style: groove;
+    border-width: 6px;
+    border-color: #9E0000;
+    width: fit-content;
+    height: 150px;
+    bottom: -6px;
+}
+
+.tesauro-container h3{
+    font-size: 26px;
+    color: white;
+}
+
+.tesauro-container a{
+    color: black;
+    font-family: Apple Chancery, cursive;
+    font-size: 26px;
+    text-decoration-line: none;
+
+}
+
+.tesauro-container a:hover{
+    background-color: transparent;
+    color: #ffffff;
+    border-radius: 8px;
+    -webkit-transition: 0.5s;
+}
+
+.tesauro-hierarquico-container{
+    border-radius: 8px;
+    border-color: black;
+    background-color: #BF1313;
+    color: #fff;
+    width: 650px;
+    position: relative;
+    left: 1150px;
+    top: -170px;
+}
+
+.fundo-container{
+    bottom: -550px;
+}
+
+.index-fundo-container{
+    top: -65px;
+}
+
+
 .creators-container {
     position: relative;
     background-color: #BF1313;
@@ -207,7 +282,7 @@ p {
 footer {
     font-family: Apple Chancery, cursive;
     position: relative;
-    
+    bottom: 5px;
     background-color: #9E0000;
     color: #FFF;
     font-size: 20px;
@@ -287,6 +362,7 @@ footer {
 }
 
 .conceito-container h5{
+    text-align: justify;
     color: black;
     font-size: 24px;
     -webkit-text-fill-color: white; /* Will override color (regardless of order) */
@@ -315,7 +391,7 @@ h6{
     background-color: transparent;
     color: #fff;
     position: absolute;
-    left: 1000px;
+    left: 1100px;
     margin-top: -1792px;
     width: 750px;
     height: fit-content;
@@ -340,7 +416,7 @@ h6{
     background-color: transparent;
     color: rgb(0, 0, 0);
     position: absolute;
-    left: 1000px;
+    left: 1100px;
     margin-top: -1380px;
     width: 750px;
     height: fit-content;
@@ -360,7 +436,7 @@ h6{
     background-color: transparent;
     color: rgb(0, 0, 0);
     position: absolute;
-    left: 1000px;
+    left: 1100px;
     margin-top: -1380px;
     width: 750px;
 }
@@ -369,7 +445,7 @@ h6{
     background-color: transparent;
     color: rgb(0, 0, 0);
     position: absolute;
-    left: 1000px;
+    left: 1100px;
     margin-top: -1440px;
     width: 750px;
 }
@@ -378,7 +454,7 @@ h6{
     background-color: transparent;
     color: rgb(0, 0, 0);
     position: absolute;
-    left: 1000px;
+    left: 1100px;
     margin-top: -1470px;
     width: 750px;
 }
@@ -387,7 +463,7 @@ h6{
     background-color: transparent;
     color: rgb(0, 0, 0);
     position: absolute;
-    left: 1000px;
+    left: 1100px;
     margin-top: -1430px;
     width: 750px;
 }
