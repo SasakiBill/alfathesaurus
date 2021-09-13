@@ -210,6 +210,50 @@ p {
     top: -170px;
 }
 
+.tutorial-container{
+    position: relative;
+    background-color: #BF1313;
+    border-radius: 8px;
+    border-style: groove;
+    border-width: 6px;
+    border-color: #9E0000;
+    width: fit-content;
+    height: 320px;
+    width: 750px;
+    bottom: -6px;
+}
+
+.tutorial-container h3{
+    font-size: 26px;
+    color: white;
+}
+
+.tutorial-container a{
+    color: black;
+    font-family: Apple Chancery, cursive;
+    font-size: 26px;
+    text-decoration-line: none;
+
+}
+
+.tutorial-container a:hover{
+    background-color: transparent;
+    color: #ffffff;
+    border-radius: 8px;
+    -webkit-transition: 0.5s;
+}
+
+.tutorial-hierarquico-container{
+    border-radius: 8px;
+    border-color: black;
+    background-color: #BF1313;
+    color: #fff;
+    width: 650px;
+    position: relative;
+    left: 1150px;
+    top: -340px;
+}
+
 .fundo-container{
     bottom: -550px;
 }
@@ -218,6 +262,9 @@ p {
     top: -65px;
 }
 
+.fundo-tutorial-container{
+    bottom: -380px;
+}
 
 .creators-container {
     position: relative;
@@ -240,8 +287,6 @@ p {
 }
 
 .hierarquico-container {
-    
-
     border-radius: 8px;
     border-color: black;
     background-color: #BF1313;
@@ -259,6 +304,8 @@ p {
     -webkit-text-fill-color: white; /* Will override color (regardless of order) */
     -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: black;
+
+    
 }
 
 .nivel-container {

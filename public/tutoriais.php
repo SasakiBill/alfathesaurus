@@ -12,7 +12,7 @@
     <a href="#">Acessibilidade</a>
     <a href="#">Sobre</a>
     <a href="#">Contribua!</a>
-    <a href="../public/tutoriais.php">Tutoriais</a>
+    <a href="#">Tutoriais</a>
     <a href="../public/tesauros.php">Tesauros da Computação</a>
     <a href="../public/index.php">Página Inicial</a>
 
@@ -29,23 +29,29 @@
   </div>
 
 
-  <div class="tesauro-container">
-  <h3>Tesauros da Computação Disponíveis:</h3>
+  <div class="tutorial-container">
+  <h3>Tutoriais Disponíveis:</h3>
       <ul style="list-style-type:disc">
         <li>
-          <a href="search.php">Ciência da Computação</a>
+          <a href="">Como criar um Tesauro?</a>
+        </li>
+        <li>
+          <a href="">Como trabalhar com Organização e Representação do Conhecimento?</a>
+        </li>
+        <li>
+          <a href="">Utilizando uma estrutura de Tesauro para organizar e representar dados de uma melhor forma.</a>
         </li>
       </ul>
   </div>
 
-  <div class="tesauro-hierarquico-container">
+  <div class="tutorial-hierarquico-container">
     <h1>Atual Nível Hierárquico:<h1>
         <div class="nivel-container">
           <h3>Ao pesquisar por algum conceito, aqui aparecerá em qual nível hierárquico você está!</h3>
         </div>
   </div>
 
-  <footer class="fundo-container">
+  <footer class="fundo-tutorial-container">
     Sistema web desenvolvido como objetivo de obtenção de nota na disciplina de Trabalho de Conclusão de Curso no curso de Ciência da Computação - Universidade Estadual do Centro-Oeste.
   </footer>
 </body>

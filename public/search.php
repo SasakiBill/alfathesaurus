@@ -8,7 +8,7 @@
   <a href="#">Acessibilidade</a>
   <a href="#">Sobre</a>
   <a href="#">Contribua!</a>
-  <a href="#">Tutoriais</a>
+  <a href="../public/tutoriais.php">Tutoriais</a>
   <a href="../public/tesauros.php">Tesauros da Computação</a>
   <a href="../public/index.php">Página Inicial</a>
   
