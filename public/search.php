@@ -6,7 +6,7 @@
   <img src="../view/img/ultimate.png"/>
 
   <a href="#">Acessibilidade</a>
-  <a href="#">Sobre</a>
+  <a href="../public/sobre.php">Sobre</a>
   <a href="../public/contribua.php">Contribua!</a>
   <a href="../public/tutoriais.php">Tutoriais</a>
   <a href="../public/tesauros.php">Tesauros da Computação</a>
