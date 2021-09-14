@@ -62,7 +62,7 @@ include 'header.php';
             <h3>Concept Scheme (Você está aqui) -> Eixos -> Competência dos Eixos -></h3>
             <h3>Competência Derivada -> Conteúdos</h3>
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             
             <a href='resultSearch.php?threadid=11'>Eixo 1 - Resolução de Problemas</a><br>
             <hr width = “2” size = “100”>

@@ -1,5 +1,5 @@
 body{
-    background: url("../img/back7.png") no-repeat center center fixed; 
+    /*background: url("../img/back7.png") no-repeat center center fixed; */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -73,9 +73,6 @@ img{
     color: #fff;
     height: fit-content;
     width: 870px;
-    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
-    -webkit-text-stroke-width: 1.5px;
-    -webkit-text-stroke-color: black;
 }
 
 .article-sobre-container {
@@ -92,17 +89,23 @@ img{
     font-size: 28px;
     background: #BF1313;
     border-radius: 8px;
- 
+    border-style: groove;
+    border-color: black;
+    border-width: 2px;
+    color: white;
+    font-weight: lighter;
 }
 
 h1 {
     font-family: Apple Chancery, cursive;
     font-size: 24px;
+    color: white;
 }
 
 .titulo-container h2{
     color: rgb(255, 255, 255);
     margin-top: 0px;
+    font-weight: lighter;
     
 }
 
@@ -221,6 +224,7 @@ p {
     position: relative;
     left: 1150px;
     top: -170px;
+    font-weight: lighter;
 }
 
 .tutorial-container{
@@ -265,6 +269,7 @@ p {
     position: relative;
     left: 1150px;
     top: -340px;
+    font-weight: lighter;
 }
 
 .fundo-container{
@@ -326,11 +331,9 @@ p {
 }
 
 .creators-container h3{
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 28px;
-    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
-    -webkit-text-stroke-width: 1.5px;
-    -webkit-text-stroke-color: black;
+    font-weight: lighter;
 }
 
 .hierarquico-container {
@@ -342,6 +345,7 @@ p {
     position: relative;
     left: 1150px;
     top: -800px;
+    font-weight: lighter;
 }
 
 .sobre-hierarquico-container{
@@ -353,17 +357,15 @@ p {
     position: relative;
     left: 1150px;
     top: -1400px;
+    font-weight: lighter;
 }
 
 .hierarquico-container h1{
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 28px;
     background-color: transparent;
-    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
-    -webkit-text-stroke-width: 1.5px;
-    -webkit-text-stroke-color: black;
+    font-weight: lighter;
 
-    
 }
 
 .nivel-container {
@@ -377,11 +379,9 @@ p {
 }
 
 .nivel-container h3{
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 28px;
-    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
-    -webkit-text-stroke-width: 1.5px;
-    -webkit-text-stroke-color: black;
+    font-weight: lighter;
 }
 
 footer {
@@ -447,7 +447,7 @@ footer {
 
 .cconceito-container{
     position: inherit;
-    color: black;
+    color: rgb(255, 255, 255);
     background-color: transparent;
     
     font-size: 25px;
@@ -457,7 +457,7 @@ footer {
 
 .cconceito-container h3{
     font-size: 28px;
-    color: black;
+    color: rgb(255, 255, 255);
 
 }
 
@@ -472,29 +472,23 @@ footer {
 
 .conceito-container h5{
     text-align: justify;
-    color: black;
+    color: #9E0000;
     font-size: 24px;
-    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
-    -webkit-text-stroke-width: 1px;
     text-decoration-line: underline;
-    -webkit-text-stroke-color: black;
     background-color: transparent;
+
 }
 
 h5{
     font-family: Apple Chancery, cursive;
     background-color: #9E0000;
-    color: rgb(255, 255, 255);
-   
+    color: rgb(255, 255, 255);  
 }
 
 h6{
     font-family: Apple Chancery, cursive;
     background-color: transparent;
-    color: rgb(255, 255, 255);
-    -webkit-text-fill-color: #ffffff; /* Will override color (regardless of order) */
-    -webkit-text-stroke-width: 1.5px;
-    -webkit-text-stroke-color: black;
+    color: rgb(0, 0, 0);
     font-size: 22px;
 }
 
@@ -503,24 +497,21 @@ h6{
     color: #fff;
     position: absolute;
     left: 1100px;
-    margin-top: -1792px;
+    margin-top: -1768px;
     width: 750px;
     height: fit-content;
 }
 
 .hierarquicod-container h1{
-    font-size: 26px;
+    font-size: 28px;
     color: black;
-    
+    font-weight: lighter;
 }
 
 .hierarquicod-container h3{
     font-size: 24px;
-    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
-    -webkit-text-stroke-width: 1px;
+    color: black;
     
-    -webkit-text-stroke-color: black;
-  
 }
 
 .hierarquicodtres-container {
@@ -580,12 +571,13 @@ h6{
 }
 
 .niveld-container {
-    background-color: transparent;
+    background-color: #fff;
     border-radius: 8px;
     border-style: groove;
     border-width: 2px;
     border-color: #000000;
     height: fit-content;
+    
     
 }
 
@@ -596,7 +588,7 @@ h6{
 }
 
 .niveld-container a:hover{
-    background-color: transparent;
+    background-color: #fff;
     border-radius: 8px;
     -webkit-transition: 0.5s;
     color: #BF1313;

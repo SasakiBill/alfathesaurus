@@ -9,12 +9,12 @@ header('Content-Type: text/html; charset=UTF-8');
   <div class="topnav">
     <img src="../view/img/ultimate-removebg-preview.png" />
 
-    <a href="#">Acessibilidade</a>
-    <a href="../public/sobre.php">Sobre</a>
-    <a href="../public/contribua.php">Contribua!</a>
-    <a href="../public/tutoriais.php">Tutoriais</a>
-    <a href="../public/tesauros.php">Tesauros da Computação</a>
-    <a href="../public/index.php">Página Inicial</a>
+    <a href="#">ACESSIBILIDADE</a>
+    <a href="../public/sobre.php">SOBRE</a>
+    <a href="../public/contribua.php">CONTRIBUA!</a>
+    <a href="../public/tutoriais.php">TUTORIAIS</a>
+    <a href="../public/tesauros.php">TESAUROS DA COMPUTAÇÃO</a>
+    <a href="../public/index.php">PÁGINA INICIAL</a>
 
   </div>
 
@@ -42,7 +42,7 @@ header('Content-Type: text/html; charset=UTF-8');
           <h3>Sandro Rautenberg</h3>
         </li>
         <li>
-          <h3>Kelly Laís Wigger</h3>
+          <h3>Kelly Laís Wiggers</h3>
         </li>
       </ul>
 
