@@ -1,12 +1,10 @@
 body{
-    background: url("../img/back5.jpg") no-repeat center center fixed; 
+    background: url("../img/background3.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
-    backdrop-filter: blur(7px);
+     background-size: cover;
 }
-
 
 /* width */
 ::-webkit-scrollbar {
@@ -21,24 +19,23 @@ body{
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #9E0000;
+    background: #181616;
     border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #b30000;
+    background: #3d3a3a;
 }
 
 .topnav {
-    background-color: #9E0000;
+    background-color: #161515;
     overflow: hidden;
-    color: #fff;
     text-align: right;
     border-radius: 8px;
     border-style: groove;
     border-width: 6px;
-    border-color: #9E0000;
+    border-color: #0077ff;
     height: 60px;
 }
 
@@ -51,29 +48,32 @@ img{
     font-family: Apple Chancery, cursive;
     float: right;
     display: block;
-    color: rgb(255, 255, 255);
+    color: #ffffff;
     text-align: right;
     padding: 14px 12px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 28px;
     margin-right: 60px;
+    -webkit-text-fill-color: #ffffff; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 
 .topnav a:hover {
-    background-color: #9E0000;
-    color: #BF1313;
-    border-radius: 8px;
+    background-color: #0077ff;
+    border-radius: 30px;
     -webkit-transition: 0.5s;
-    color: rgb(31, 30, 30);
+    color: #000000;
 }
 
 .article-container {
     background-color: transparent;
     border-radius: 8px;
-    color: #fff;
+    border-color: #0077ff;
+    
     height: fit-content;
     width: 870px;
-    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-fill-color: #ffffff; /* Will override color (regardless of order) */
     -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: black;
 }
@@ -81,7 +81,7 @@ img{
 .article-sobre-container {
     background-color: transparent;
     border-radius: 8px;
-    color: rgb(0, 0, 0);
+    color: #ffffff;
     height: fit-content;
     width: 870px;
     
@@ -90,9 +90,10 @@ img{
 
 .article-container h1{
     font-size: 28px;
-    background: #BF1313;
+    background: #161515;
     border-radius: 8px;
- 
+    border-style: groove;
+    border-color: #0077ff;
 }
 
 h1 {
@@ -101,21 +102,23 @@ h1 {
 }
 
 .titulo-container h2{
-    color: rgb(255, 255, 255);
+    color: #0077ff;
     margin-top: 0px;
+    -webkit-text-fill-color: #ffffff; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
     
 }
 
 .titulo-container {
-    background-color: #BF1313;
-    color: #fff;
+    background-color: #161515;
     top: 2px;
     height: 40px;
     position: relative;
     border-radius: 2px;
     border-style: groove;
     border-width: 4px;
-    border-color: #9E0000;
+    border-color: #0077ff;
 }
 
 
@@ -182,11 +185,11 @@ p {
 
 .tesauro-container{
     position: relative;
-    background-color: #BF1313;
+    background-color: #161515;
     border-radius: 8px;
     border-style: groove;
     border-width: 6px;
-    border-color: #9E0000;
+    border-color: #0077ff;    ;
     width: fit-content;
     height: 150px;
     bottom: -6px;
@@ -194,7 +197,7 @@ p {
 
 .tesauro-container h3{
     font-size: 26px;
-    color: white;
+    color: #ffffff;
 }
 
 .tesauro-container a{
@@ -202,6 +205,9 @@ p {
     font-family: Apple Chancery, cursive;
     font-size: 26px;
     text-decoration-line: none;
+    -webkit-text-fill-color: #ffffff; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 
 }
 
@@ -214,9 +220,9 @@ p {
 
 .tesauro-hierarquico-container{
     border-radius: 8px;
-    border-color: black;
-    background-color: #BF1313;
-    color: #fff;
+    border-color: #0077ff;
+    background-color: #161515;    ;
+    color: #ffffff;
     width: 650px;
     position: relative;
     left: 1150px;
@@ -225,11 +231,11 @@ p {
 
 .tutorial-container{
     position: relative;
-    background-color: #BF1313;
+    background-color:  #161515;    ;
     border-radius: 8px;
     border-style: groove;
     border-width: 6px;
-    border-color: #9E0000;
+    border-color:  #0077ff;
     width: fit-content;
     height: 320px;
     width: 750px;
@@ -238,19 +244,22 @@ p {
 
 .tutorial-container h3{
     font-size: 26px;
-    color: white;
+    color:  #ffffff;
 }
 
 .tutorial-container a{
-    color: black;
+    color: #0077ff;
     font-family: Apple Chancery, cursive;
     font-size: 26px;
     text-decoration-line: none;
+    -webkit-text-fill-color: #ffffff; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 
 }
 
 .tutorial-container a:hover{
-    background-color: transparent;
+    background-color:  #0077ff;
     color: #ffffff;
     border-radius: 8px;
     -webkit-transition: 0.5s;
@@ -258,9 +267,9 @@ p {
 
 .tutorial-hierarquico-container{
     border-radius: 8px;
-    border-color: black;
-    background-color: #BF1313;
-    color: #fff;
+    border-color:  #0077ff;
+    background-color: #161515;
+    color:  #ffffff;
     width: 650px;
     position: relative;
     left: 1150px;
@@ -290,11 +299,11 @@ p {
 
 .creators-container {
     position: relative;
-    background-color: #BF1313;
+    background-color: #161515;
     border-radius: 8px;
     border-style: groove;
     border-width: 6px;
-    border-color: #9E0000;
+    border-color:  #0077ff;
     width: auto;
     height: auto;
     
@@ -326,18 +335,18 @@ p {
 }
 
 .creators-container h3{
-    color: black;
+    color:  #0077ff;
     font-size: 28px;
-    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-fill-color:  #ffffff; /* Will override color (regardless of order) */
     -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: black;
 }
 
 .hierarquico-container {
     border-radius: 8px;
-    border-color: black;
-    background-color: #BF1313;
-    color: #fff;
+    border-color: #0077ff;
+    background-color: #161515;
+    color: #ffffff;
     width: 650px;
     position: relative;
     left: 1150px;
@@ -346,9 +355,9 @@ p {
 
 .sobre-hierarquico-container{
     border-radius: 8px;
-    border-color: black;
-    background-color: #BF1313;
-    color: #fff;
+    border-color: #0077ff;
+    background-color: #161515;
+    color: #ffffff;
     width: 650px;
     position: relative;
     left: 1150px;
@@ -356,10 +365,10 @@ p {
 }
 
 .hierarquico-container h1{
-    color: black;
+    color: #0077ff;
     font-size: 28px;
     background-color: transparent;
-    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-fill-color: #ffffff; /* Will override color (regardless of order) */
     -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: black;
 
@@ -368,18 +377,16 @@ p {
 
 .nivel-container {
     position: absolute;
-    background-color: #BF1313;
+    background-color: #161515;
     border-radius: 8px;
     border-style: groove;
-    border-color: #fff;
+    border-color: #0077ff;
     border-width: 6px;
-    border-color: #9E0000;
 }
 
 .nivel-container h3{
-    color: black;
     font-size: 28px;
-    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-fill-color: #ffffff; /* Will override color (regardless of order) */
     -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: black;
 }
@@ -388,8 +395,8 @@ footer {
     font-family: Apple Chancery, cursive;
     position: relative;
     bottom: 5px;
-    background-color: #9E0000;
-    color: #FFF;
+    background-color: #161515;
+    color: #ffffff;
     font-size: 20px;
     width: 99%;
     height: 50px;    
@@ -397,7 +404,7 @@ footer {
     line-height: 50px;
     border-radius: 4px;
     border-style: groove;
-    border-color: #000000;
+    border-color: #0077ff;
 }
 
 .formulario-container{
@@ -438,7 +445,7 @@ footer {
 
 .resultadores-container a:hover {
     background-color: transparent;
-    color: #BF1313;
+    color: #0077ff;
     border-radius: 8px;
     -webkit-transition: 0.5s;
     
@@ -490,11 +497,9 @@ h5{
 
 h6{
     font-family: Apple Chancery, cursive;
-    background-color: transparent;
-    color: rgb(255, 255, 255);
-    -webkit-text-fill-color: #ffffff; /* Will override color (regardless of order) */
-    -webkit-text-stroke-width: 1.5px;
-    -webkit-text-stroke-color: black;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    
     font-size: 22px;
 }
 

@@ -7,7 +7,7 @@
 
 <body>
   <div class="topnav">
-    <img src="../view/img/ultimate.png" />
+    <img src="../view/img/ultimate-removebg-preview.png" />
 
     <a href="#">Acessibilidade</a>
     <a href="../public/sobre.php">Sobre</a>
